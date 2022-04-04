@@ -1,8 +1,19 @@
-var orangeJuiceMain = function (input) {
+var orangeJuiceMain = function (numGuests);
+var orangesperglass = 4
+var glassesperguest = 2
+var numGlasses = numGuests * numOranges;
+var numOranges = numGlasses * orangesperglass;
+
   // Attempt the Orange Juice Calculator exercise from the Functions II module below with orangeJuiceMain as the main function.
-  var myOutputValue = 'hello world';
+  //input = numExpectedGuests
+  //output = numOrangeParty
+  //4 oranges = 1 class
+  //1 guest = 2 glasses 
+  
+  var myOutputValue = 'numOranges';
   return myOutputValue;
 };
+
 
 var paintMain = function (input) {
   // Attempt the House Paint exercise from the Functions II module below with paintMain as the main function.
